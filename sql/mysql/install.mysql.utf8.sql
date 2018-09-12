@@ -1,6 +1,6 @@
 CREATE TABLE IF NOT EXISTS `#__epkalenteriConfig` (
 	`id` int(10) NOT NULL AUTO_INCREMENT,
-	`apiurl` text
+	`apiurl` text,
 
   PRIMARY KEY (`id`)
 ) ENGINE=INNODB DEFAULT CHARSET=utf8 AUTO_INCREMENT=1;
