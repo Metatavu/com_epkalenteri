@@ -1,0 +1,32 @@
+.epkalenteri__form_container {
+  width: 40%;
+}
+
+.epkalenteri__input_text {
+  width: 100%;
+}
+
+.epkalenteri__input_submit {
+  display: block;
+  background-color: #68a54b;
+  color: #fff;
+  font-weight: bold;
+  font-size: 16px;
+  padding: 5px 15px;
+}
+
+.epkalenteri-alert-success {
+  background-color: #28a745;
+  width: 100%;
+  padding: 10px;
+  color: #fff;
+  text-align: center;
+}
+
+.epkalenteri-alert-warning {
+  background-color: #dc3545;
+  width: 100%;
+  padding: 10px;
+  color: #fff;
+  text-align: center;
+}

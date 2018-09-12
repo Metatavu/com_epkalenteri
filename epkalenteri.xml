@@ -1,0 +1,37 @@
+<?xml version="1.0" encoding="utf-8"?>
+<extension type="component" version="3.1" method="upgrade">
+	<name>EP Kalenteri</name>
+	<author>Ville Koivukangas</author>
+	<creationDate>11.09.2018</creationDate>
+	<copyright></copyright>
+	<license></license>
+	<authorEmail>info@metatavu.fi</authorEmail>
+	<authorUrl>www.metatavu.fi</authorUrl>
+	<version>3.1.0</version>
+	<description>epkalenteri integration for joomla</description>
+
+	<files folder="site">
+	</files>
+	<administration>
+		<files folder="admin">
+			<filename>epkalenteri.php</filename>
+			<folder>css</folder>
+			<filename>com_epkalenteri.css</filename>
+		</files>
+		<menu link="option=com_epkalenteri" img="class:epkalenteri">EP Kalenteri</menu>
+
+	</administration>
+	<install>
+     <sql>
+         <file driver="mysql" charset="utf8">sql/mysql/install.mysql.utf8.sql</file>
+         <file driver="sqlazure" charset="utf8">sql/sqlazure/install.sqlazure.utf8.sql</file>
+     </sql>
+	</install>
+
+	<uninstall>
+			<sql>
+					<file driver="mysql" charset="utf8">sql/mysql/uninstall.mysql.utf8.sql</file>
+					<file driver="sqlazure" charset="utf8">sql/sqlazure/uninstall.sqlazure.utf8.sql</file>
+			</sql>
+	</uninstall>
+</extension>
