@@ -16,6 +16,8 @@
 		<files folder="admin">
 			<filename>epkalenteri.php</filename>
 			<folder>css</folder>
+			<folder>sql</folder>
+			<folder>sql/mysql</folder>
 			<filename>css/com_epkalenteri.css</filename>
 		</files>
 		<menu link="option=com_epkalenteri" img="class:epkalenteri">EP Kalenteri</menu>
