@@ -1,0 +1,6 @@
+CREATE TABLE IF NOT EXISTS `#__epkalenteriEventTemplate` (
+	`id` int(10) NOT NULL AUTO_INCREMENT,
+	`template` text,
+
+  PRIMARY KEY (`id`)
+) ENGINE=INNODB DEFAULT CHARSET=utf8 AUTO_INCREMENT=1;

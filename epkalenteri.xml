@@ -25,14 +25,16 @@
 	</administration>
 	<install>
      <sql>
-         <file driver="mysql" charset="utf8">sql/mysql/install.mysql.utf8.sql</file>
+         <file driver="mysql" charset="utf8">sql/mysql/install.config.utf8.sql</file>
+				 <file driver="mysql" charset="utf8">sql/mysql/install.template.utf8.sql</file>
          <file driver="sqlazure" charset="utf8">sql/sqlazure/install.sqlazure.utf8.sql</file>
      </sql>
 	</install>
 
 	<uninstall>
 			<sql>
-					<file driver="mysql" charset="utf8">sql/mysql/uninstall.mysql.utf8.sql</file>
+					<file driver="mysql" charset="utf8">sql/mysql/uninstall.config.utf8.sql</file>
+					<file driver="mysql" charset="utf8">sql/mysql/uninstall.template.utf8.sql</file>
 					<file driver="sqlazure" charset="utf8">sql/sqlazure/uninstall.sqlazure.utf8.sql</file>
 			</sql>
 	</uninstall>
